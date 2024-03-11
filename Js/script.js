@@ -9,7 +9,8 @@ createApp({
             saluto : 'Ciao',
             nome : 'Mario',
             cognome : 'Rossi',
-            nomeUtente : 'Inserisci nome e cognome'
+            nomeUtente : 'Inserisci nome e cognome',
+            miaClasseCss : 'verde'
 
         }
     }

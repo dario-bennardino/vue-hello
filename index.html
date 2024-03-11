@@ -15,10 +15,15 @@
 
             <h2>{{saluto}} {{nome}} {{cognome}}</h2>
 
-            // esempio di sovrascrizione di variabile con input
-            
+            <!-- esempio di sovrascrizione di variabile con input utilizzando v-model -->
+
             <input type="text" class="form-text" v-model="nomeUtente">
             <h3>{{saluto}} {{nomeUtente}}</h3>
+
+            <h3 class="rosso">{{nome}} {{cognome}}</h3>
+
+            <h3 :class="miaClasseCss">{{nome}} {{cognome}}</h3>
+
 
 
 
