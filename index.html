@@ -12,6 +12,16 @@
     <div id="app">
         <div class="container">
             <h1>{{messaggio}}</h1>
+
+            <h2>{{saluto}} {{nome}} {{cognome}}</h2>
+
+            // esempio di sovrascrizione di variabile con input
+            
+            <input type="text" class="form-text" v-model="nomeUtente">
+            <h3>{{saluto}} {{nomeUtente}}</h3>
+
+
+
         </div>
         
     </div>

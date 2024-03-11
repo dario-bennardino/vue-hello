@@ -5,7 +5,12 @@ createApp({
 
     data(){
         return{
-            messaggio : 'Hello world'
+            messaggio : 'Hello world',
+            saluto : 'Ciao',
+            nome : 'Mario',
+            cognome : 'Rossi',
+            nomeUtente : 'Inserisci nome e cognome'
+
         }
     }
 
