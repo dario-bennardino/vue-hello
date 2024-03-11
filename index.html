@@ -24,6 +24,20 @@
 
             <h3 :class="miaClasseCss">{{nome}} {{cognome}}</h3>
 
+            <!-- Carico un img tramite url -->
+
+            <!-- <div class="box-img">
+                <img :src="newImage" alt="newImage Vue">
+
+            </div> -->
+
+            <!-- Carico una img tramite url e le aggiungo una classe per inserirla nel suo box -->
+
+            <div class="box-img">
+                <img :src="newImage" alt="newImage Vue" :class="sizeImage">
+
+            </div>
+
 
 
 
